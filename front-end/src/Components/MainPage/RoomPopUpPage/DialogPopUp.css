@@ -1,0 +1,109 @@
+
+.exitMark{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.exitMark:hover{
+    color: #3f72af;
+}
+
+.cardContainer{
+    align-items: center;
+    padding: 10px;
+}
+
+.cardContainer span{
+    margin: 0 20px;
+}
+
+.DialogTitle{
+    text-align: center;
+}
+.card{
+    width: 200px;
+    height: 400px;
+    background-color: #F9F7F7;
+    border: none;
+    box-shadow: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 0;
+    border-radius: 10px;
+    line-height: 36px;
+    transition: all 0.3s cubic-bezier(0.88, 0.19, 0.37, 1.11);
+}
+
+.card:hover{
+    transform: scale(1.1);
+}
+
+.form_container{
+    margin-top: 3rem;
+    padding: 1rem;
+    background-color: #F9F7F7;
+    border-radius: 1rem;
+}
+
+.add_time{
+    text-align: end;
+}
+
+.dialog_exit_button{
+    width: fit-content;
+    background-color: white;
+    position: absolute;
+    right: 0%;
+    margin: 7px;
+    border: none;
+    cursor: pointer;
+}
+
+.stepper_button{
+    float: right;
+}
+
+.stepper_button_left{
+    float: left;
+}
+
+.subject_button_container{
+    width: auto ;
+}
+
+.delete_subject_button{
+    border-radius: 0.5rem;
+    background-color: #FF8A8A;
+    color: black;
+    outline: none;
+    border: none;
+   
+}
+.add_subject_button{
+    border-radius: 0.5rem;
+    background-color: #DBE2EF;
+    color: black;
+    outline: none;
+    border: none;
+    margin-left: 5px;
+}
+.delete_time_button{
+    border-radius: 0.5rem;
+    background-color: #FF8A8A;
+    color: black;
+    outline: none;
+    border: none;
+    margin-left: 5px;
+    
+}
+.add_time_button{
+    border-radius: 0.5rem;
+    background-color: #DBE2EF;
+    color: black;
+    outline: none;
+    border: none;
+    margin-left: 5px;
+}
+

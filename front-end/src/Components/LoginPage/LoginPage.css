@@ -1,0 +1,54 @@
+body{
+    margin: 0px;
+    overflow: hidden;
+}
+
+.background-login{
+    height: 100vh;
+    background-color: #3f72af;
+
+}
+
+.logo{
+    width: 15rem;
+    margin-bottom: 20px;
+}
+
+.center_component{
+    text-align: center;
+    margin-top: 5rem;
+    padding: 10px;
+}
+
+.login-text{
+    width: 258px;
+    height: 36px;
+    margin : 5px;
+    border: 1px solid #dbdbdb;
+}
+
+.login-btn{
+    margin-top: 10px;
+    width: 258px;
+    height:36px;
+    background-color: #3f72af;
+    border: 0px;
+    border-radius: 0.5rem;
+    color: #F9F7F7;
+    font-weight: bold;
+}
+
+.sign_up_button{
+    cursor: pointer;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.back_button{
+    cursor: pointer;
+    width: fit-content;
+    margin: 0 auto;
+    position: absolute;
+    left: 1%;
+    top: 1%;
+}
